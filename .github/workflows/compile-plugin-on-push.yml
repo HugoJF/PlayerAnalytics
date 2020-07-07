@@ -32,6 +32,7 @@ jobs:
         mkdir artifact
         mv plugins artifact
         mv scripting artifact
+        mv gamedata artifact
         mv LICENSE artifact
 
     - name: Upload compiled plugin
